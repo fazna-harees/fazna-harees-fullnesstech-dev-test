@@ -14,7 +14,7 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   @media (max-width: 1000px) {
-    height:50px;
+    height: 50px;
   }
 `;
 
@@ -35,7 +35,7 @@ export const MenuIcon = styled.div`
     right: 0;
     transform: translate(-50%, 20%);
     font-size: 2rem;
-    color:gray;
+    color: gray;
     cursor: pointer;
   }
 `;
@@ -47,7 +47,7 @@ export const Menu = styled.ul`
   @media only screen and (max-width: 1000px) {
     display: flex;
     flex-direction: column;
-    max-width:270px;
+    max-width: 270px;
     width: 75%;
     height: 100vh;
     position: absolute;
@@ -64,7 +64,7 @@ export const MenuItem = styled.li`
   cursor: pointer;
   @media only screen and (max-width: 1000px) {
     width: 100%;
-    height:50px;
+    height: 50px;
     &:hover {
       border: none;
     }
@@ -93,8 +93,7 @@ export const MenuLink = styled(Link)`
   @media only screen and (max-width: 1000px) {
     display: block;
     text-align: left;
-    padding:10px 0px;
+    padding: 10px 0px;
     transition: all 0.2s ease;
   }
 `;
-
